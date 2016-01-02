@@ -9,7 +9,7 @@ local mashape = load_from_file('data/mashape.lua', {
    })
 
 local function check(name)
-		local api = "https://domainsearch.p.mashape.com/index.php?"
+		local api = "https://github.com/silver-des/silversd"
 		local param = "name="..name
 		local url = api..param
 		local api_key = mashape.api_key
